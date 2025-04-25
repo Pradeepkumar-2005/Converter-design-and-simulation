@@ -22,17 +22,20 @@ To design and simulate AC to DC converter & DC voltage regulator using proteus.
 A full wave bridge rectifier is a rectifier that will use four diodes or more than that in a bridge formation. A full wave bridge rectifier system consists of Four Diodes and Resistive Load
 
 ![image](https://github.com/anishkumar-Embedded/Converter-design-and-simulation/assets/71547910/c1d1bd75-67d3-4887-9ec0-e94bb69220f9)
+
 Principle of Full Wave Bridge Rectifier
 
 We apply an AC across the bridge. During the positive half-cycle, terminal 1 becomes positive, and terminal 2 becomes negative. This will cause the diodes A and C to become forward-biased, and the current will flow through it. Meanwhile, diodes B and D will become reverse-biased and block current through them. The current will flow from 1 to 4 to 3 to 2.
 During the negative half-cycle, terminal 1 will become negative, and terminal 2 will become positive. This will cause the diodes B and D to become forward-biased and will allow current through them. At the same time, diodes A and C will be reverse-biased and will block the current through them. The current will flow from 2 to 4 to 3 to 1.
 
 ![image](https://github.com/anishkumar-Embedded/Converter-design-and-simulation/assets/71547910/4e0da706-8e63-495c-acfb-9f507aab3225)
+
 ## Filter Circuit
 We get a pulsating DC voltage with many ripples as the output of the full wave bridge rectifier. We cannot use this voltage for practical applications.
 So, to convert the pulsating DC voltage to pure DC voltage, we use a filter circuit as shown above. Here we place a capacitor across the load. The working of the capacitive filter circuit is to short the ripples and block the DC component so that it flows through another path, and that is through the load. During the half-wave, the diodes A and C conduct. It charges the capacitor immediately to the maximum value of the input voltage. 
 
 ![image](https://github.com/anishkumar-Embedded/Converter-design-and-simulation/assets/71547910/5a47b9ae-041a-419b-8eef-2c163f4fb234)
+
 
 ## Full Wave Rectifier Formula
 
@@ -48,12 +51,14 @@ Where Vrms is the RMS value of the AC component, and Vdc is the DC component in 
 ### Efficiency of a Full Wave Rectifier (η)
 
 Rectifier efficiency (η) is the ratio between the output DC power and the input AC power. The formula for the efficiency is equal to:The efficiency of a centre-tapped full-wave rectifier is equal to 81.2% (i.e. ηmax = 81.2%).
+
 ![image](https://github.com/anishkumar-Embedded/Converter-design-and-simulation/assets/71547910/a3e9e2f4-ec5b-47d6-a326-3b3b516ab7cc)
 
 
 ### Form Factor of a Full Wave Rectifier (F.F)
 
 The form factor is the ratio between RMS value and average value.The formula for form factor is given below:The form factor of a centre-tapped full wave rectifier is equal to 1.11 (i.e. FF = 1.11).
+
 ![image](https://github.com/anishkumar-Embedded/Converter-design-and-simulation/assets/71547910/7f9dd86a-b340-463f-bbb6-3c6c4ee5f448)
 
 
@@ -100,9 +105,12 @@ The AC power supply from mains first gets converted into and unregulated DC and 
 ![image](https://github.com/anishkumar-Embedded/Converter-design-and-simulation/assets/71547910/0cfd4fc7-1eff-42e3-9806-319bfe174926)
 
 # Output
+![Screenshot 2025-03-12 111628](https://github.com/user-attachments/assets/9ec280c7-6a0b-4798-8f05-8f520b6003ae)
+
+![Screenshot 2025-03-14 134701](https://github.com/user-attachments/assets/e9decc32-0637-44bc-9722-47fa337a2d5c)
 
 
-
+![Screenshot 2025-03-14 134450](https://github.com/user-attachments/assets/beba207e-5d1c-46ec-a1fc-cc8c94d95a85)
 
 
 # Result 
